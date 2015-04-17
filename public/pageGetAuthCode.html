@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Client ID: <input type="text" id="ClientID" value="Your ClientID"><br>
+
+<button onclick="myFunction()">Get Code</button>
+
+<p>Victor Rocks</p>
+
+<script>
+function myFunction() {
+        location.href = "/getAuthCode/" + document.getElementById("ClientID").value;
+}
+</script>
+
+</body>
+</html>
